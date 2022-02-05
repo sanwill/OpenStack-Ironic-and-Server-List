@@ -11,8 +11,12 @@ If the compute hostname use different naming convention e.g. overcloud-worker-0,
 Otherwise remove the codes to check compute zone.
 
 Command:
+```console
 $ python serverlist.py
+```
 
 or you can pipe to a file
 
+```
 $ python serverlist.py > serverlist.txt
+```
